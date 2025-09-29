@@ -9,6 +9,6 @@ export const profile = {
 		{ label: "Handle", value: "antonmalling", style: "purple" },
 		{ label: "Email", value: "anton@kapa.ai", style: "purple" },
 		{ label: "LinkedIn", value: "https://www.linkedin.com/in/anton-malling/", style: "purple" },
-		{ label: "Card", value: "npx reverentgeek", style: "orange", leadingNewline: true }
+		{ label: "Card", value: "npx antonmalling", style: "orange", leadingNewline: true }
 	]
 };
