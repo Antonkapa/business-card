@@ -1,25 +1,25 @@
 {
-	"name": "reverentgeek",
-	"version": "3.0.0",
+	"name": "anton-malling",
+	"version": "1.0.0",
 	"description": "My personal calling card.",
 	"main": "./bin/card.js",
 	"bin": {
-		"reverentgeek": "./bin/card.js"
+		"anton-malling": "./bin/card.js"
 	},
 	"type": "module",
 	"scripts": {
 		"lint": "eslint bin/*.js art/*.js"
 	},
 	"keywords": [
-		"David",
-		"Neal",
-		"reverentgeek"
+		"Anton",
+		"Malling",
+		"anton kapa"
 	],
-	"author": "David Neal <david@reverentgeek.com> (https://reverentgeek.com)",
+	"author": "Anton Malling <anton@kapa.ai> (https://www.kapa.ai/)",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/reverentgeek/reverentgeek-card.git"
+		"url": "https://github.com/Antonkapa/business-card.git"
 	},
 	"dependencies": {
 		"boxen": "^8.0.1",
