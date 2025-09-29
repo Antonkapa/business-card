@@ -25,7 +25,8 @@ const valueStylers = {
 	orange: value => palette.orange( value ),
 	gradient: value => gradient( value ),
 	lightBlue: value => palette.lightBlue( value ),
-	yellow: value => palette.yellow( value )
+	yellow: value => palette.yellow( value ),
+	purple: value => palette.purple( value )
 };
 
 const styleValue = ( { value, style } ) => {
@@ -52,7 +53,8 @@ const formattedInfo = renderInfoSections( styledInfoSections, {
 	labelColor: palette.blue
 } );
 
-const bioLines = wrapText( profile.bio, hrText.length );
+const bioParagraphs = Array.isArray( profile.bio ) ? profile.bio : [ profile.bio ];
+const bioLines = bioParagraphs.flatMap( paragraph => wrapText( paragraph, hrText.length ) );
 const bio = `\n${ bioLines.map( line => palette.lightBlue( line ) ).join( newline ) }`;
 
 const artAssets = artOrder.length > 0 ? artOrder : availableArt();
