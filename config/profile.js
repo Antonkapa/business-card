@@ -1,21 +1,14 @@
 export const artOrder = [ "avatar", "banner" ];
 
 export const profile = {
-	name: "DAVID NEAL",
-	handle: "reverentgeek",
-	bio: "David is a family man, geek, musician, illustrator, speaker, software developer, and Microsoft MVP living in North GA. He runs on a high-octane mixture of caffeine and JavaScript, and is entirely made of bacon.",
+	name: "Anton Malling",
+	handle: "antonmalling",
+	bio: [ "Anton is the Chief of Staff at", "https://kapa.ai" ],
 	infoSections: [
-		{ label: "Work", value: [ "Developer Relations Engineer", "https://plaid.com" ], style: "gradient", leadingNewline: true },
-		{ label: "Handle", value: "reverentgeek", style: "yellow" },
-		{ label: "Portfolio", value: "https://reverentgeek.com", style: "yellow" },
-		{ label: "Email", value: "david@reverentgeek.com", style: "yellow" },
-		{ label: "LinkedIn", value: "https://linkedin.com/in/davidneal", style: "yellow" },
-		{ label: "GitHub", value: "https://github.com/reverentgeek", style: "yellow" },
-		{ label: "Instagram", value: "https://instagram.com/reverentgeek", style: "yellow" },
-		{ label: "Mastodon", value: "@reverentgeek@reverentgeek.com", style: "yellow" },
-		{ label: "BlueSky", value: "@reverentgeek.com", style: "yellow" },
-		{ label: "Threads", value: "@reverentgeek", style: "yellow" },
-		{ label: "X", value: "https://x.com/reverentgeek", style: "yellow" },
+		{ label: "Work", value: [ "Chief of Staff", "https://kapa.ai" ], style: "gradient", leadingNewline: true },
+		{ label: "Handle", value: "antonmalling", style: "purple" },
+		{ label: "Email", value: "anton@kapa.ai", style: "purple" },
+		{ label: "LinkedIn", value: "https://www.linkedin.com/in/anton-malling/", style: "purple" },
 		{ label: "Card", value: "npx reverentgeek", style: "orange", leadingNewline: true }
 	]
 };
